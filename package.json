@@ -1,0 +1,13 @@
+{
+  "name": "api-wisata-sulteng",
+  "version": "2.0.0",
+  "description": "API Wisata Sulawesi Tengah dengan URI Versioning dan Git (Baseline)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "dependencies": {
+    "graphql": "^16.10.0"
+  }
+}
